@@ -1,0 +1,7 @@
+# Only used for tooling; the addon itself is installed by FreeCAD's Addon Manager.
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py39"
